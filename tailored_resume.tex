@@ -1,0 +1,103 @@
+% ===================================================================
+%      PROFESSIONAL & COMPACT RESUME TEMPLATE (ROBUST VERSION)
+% ===================================================================
+% Designed for XeLaTeX. Merges a modern, technical aesthetic with
+% a simple, reliable structure.
+%
+\documentclass[11pt, letterpaper]{article}
+
+% --- Core Packages ---
+\usepackage{fontspec}           % For using system fonts (essential for XeLaTeX)
+\usepackage[
+  left=0.7in, right=0.7in,
+  top=0.55in, bottom=0.55in       % Tighter margins for a compact, one-page fit
+]{geometry}
+\usepackage{hyperref}           % For clickable links
+\usepackage{enumitem}           % For list customization
+\usepackage{tabularx}           % For two-column layouts
+\usepackage[usenames,dvipsnames]{xcolor} % For colors
+
+% --- Font and Color Setup ---
+% Set a clean, modern, technical font.
+% Ensure you have "Roboto Mono" or "Carlito" installed, or switch to a font you have.
+\setmainfont{Carlito}
+% \setmainfont{Calibri} % Or use Calibri if you have it
+% \setmainfont{Roboto Mono} % Or use this for a more "code" feel
+\definecolor{gray}{RGB}{90, 90, 90} % A dark gray for subtle text
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+
+% --- Document-wide Settings ---
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+\setlist[itemize]{
+  leftmargin=0.15in,             % Indent bullets
+  label=\textendash,             % Use a dash for bullets - looks clean and technical
+  topsep=2pt,
+  itemsep=2pt,
+  parsep=0pt
+}
+
+% --- Custom Section Command ---
+% Creates a clean section title with a horizontal rule below it.
+\newcommand{\resumesection}[1]{
+  \vspace{8pt} % Space above the section title
+  {\large\bfseries\scshape\color{black}#1} % Section title text
+  \vspace{3pt} % Space between title and rule
+  \hrule height 0.8pt % A slightly thicker, more prominent rule
+  \vspace{8pt} % Space below the rule
+}
+
+\begin{document}
+
+% ===================================================================
+%   HEADER
+% ===================================================================
+\begin{center}
+  {\Huge\bfseries Amaan Siddiqi} \\ \vspace{4pt}
+  \small
+  +1 (778) 235-8702 \color{gray}\textbullet\color{black}
+  \href{mailto:amaansiddiqi2@gmail.com}{ amaansiddiqi2@gmail.com } \color{gray}\textbullet\color{black}
+  Vancouver, BC \\ \vspace{2pt}
+  \href{https://amaansiddiqi.me}{Website} \color{gray}\textbullet\color{black}
+  \href{https://github.com/amaansiddiqi}{GitHub} \color{gray}\textbullet\color{black}
+  \href{https://linkedin.com/in/amaan-siddiqi-38b7021b0}{LinkedIn}
+\end{center}
+
+% ===================================================================
+%   TECHNICAL SKILLS
+% ===================================================================
+\resumesection{Technical Skills}
+\begin{itemize}[itemsep=1pt]\item \textbf{ Languages:} C, Java, JavaScript, Kotlin, MATLAB, Python, TypeScript\item \textbf{ Web / UI:} Express, React\item \textbf{ ML / DL:} CLIP, Hugging Face, JAX, LangChain, LangGraph, LlamaIndex, ONNX, Optuna, PyTorch, TensorFlow\item \textbf{ Vector DB / RAG:} OpenAI API\end{itemize}
+
+% ===================================================================
+%   EXPERIENCE
+% ===================================================================
+\resumesection{Experience}% Using a simple \hfill for the two-column effect is very robust
+  \textbf{ Capstone Engineer – Korotu: Drone LiDAR Tree Classification | UBC } \hfill \textit{ Jan 2024 -- Apr 2025 }
+  \vspace{1pt} % Minimal space between heading and bullets
+  \begin{itemize}\item Architected drone-to-prediction ML pipeline with hierarchical \textbf{PointNet}++, reaching 80\% genus and 70\% species accuracy on LiDAR scans\item Enhanced 3-D segmentation via DBSCAN and Open3D, boosting cluster granularity for large-scale forest plots\item Presented results to 200+ stakeholders at UBC Design \& Innovation Day\end{itemize}
+% ===================================================================
+%   PROJECTS
+% ===================================================================
+\resumesection{Projects}\textbf{ EEG Signal Classifier | PyTorch, CNN, Attention } \hfill \textit{ Sep 2024 -- Dec 2024 }
+  \vspace{1pt}
+  \begin{itemize}\item Reached 80\% accuracy on 5-class EEG classification by integrating SE-blocks and spatial attention\item Cut inference latency 15\% via global pooling and pruning\end{itemize}\textbf{ UBC Center for Accessibility Redesign | Figma, React } \hfill \textit{ Sep 2023 -- Dec 2023 }
+  \vspace{1pt}
+  \begin{itemize}\item Shipped WCAG-compliant, mobile-first redesign; 30\% faster task completion \& 40\% higher user satisfaction (12-person study)\item Ran A/B tests and had improvements adopted into the live site\end{itemize}\textbf{ ToneCrafter: AI-Powered Guitar Tone Engine | TorchAudio, Pedalboard } \hfill \textit{ Feb 2025 -- Present }
+  \vspace{1pt}
+  \begin{itemize}\item Built real-time multi-agent DSP pipeline for natural-language-driven guitar-tone customization\item Designed modular Prompt Analyzer, Tone Retriever, and DSP Synthesizer agents to enable scalable tone modeling\item Retrieved tones from user audio via deep embeddings and artist-profile matching\item Implemented chord-detection achieving ≈85\% section-wise accuracy\end{itemize}\textbf{ Map-Based Task Management | Kotlin, React, Node, MongoDB } \hfill \textit{ Oct 2024 -- Jan 2025 }
+  \vspace{1pt}
+  \begin{itemize}\item Initiated at DubHacks; expanded into full-stack Android app for ADHD users with spatial task tracking and Kotlin-based frontend\item Integrated \textbf{React} web dashboard and \textbf{Node}.js backend with \textbf{MongoDB}, designed for cross-platform consistency\item Implemented Espresso test suite for end-to-end Android testing and CI validation\item Produced comprehensive developer docs and UI/\textbf{UX} flows to support future scalability\end{itemize}
+% ===================================================================
+%   EDUCATION
+% ===================================================================
+\resumesection{Education}
+  \textbf{The University of British Columbia} \hfill \textit{Expected May 2025} \\
+  \textit{Bachelor of Applied Science, Computer Engineering} \hfill \textit{Vancouver, BC}
+  \begin{itemize}[itemsep=1pt]
+    \item Outstanding International Student Award
+    \item Relevant Coursework: Machine Learning, Deep Learning, Computer Vision, Embedded Systems, UI/UX Design
+  \end{itemize}
+
+\end{document}

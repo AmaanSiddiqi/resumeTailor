@@ -1,0 +1,166 @@
+# ===================================================================
+#           AI-Powered Resume Configuration: Amaan Siddiqi
+# ===================================================================
+# This file is the single source of truth for all resume content.
+# The Python script reads from here to generate tailored resumes.
+
+# ===============================
+#  1. Personal Information
+# ===============================
+personal_info:
+  name: Amaan Siddiqi
+  email: amaansiddiqi2@gmail.com
+  phone: +1 (778) 235-8702
+  location: Vancouver, BC
+  website: amaansiddiqi.me
+  github: amaansiddiqi
+  linkedin: amaan-siddiqi-38b7021b0
+
+# ===============================
+#  2. Master Skill List
+# ===============================
+# A flat list of all your skills. The script will categorize and format
+# these automatically based on the job description.
+skills:
+  # Languages
+  - Python
+  - Java
+  - JavaScript
+  - TypeScript
+  - Kotlin
+  - C
+  - MATLAB
+  # Core ML / DL Frameworks
+  - PyTorch
+  - TensorFlow
+  - JAX
+  - Scikit-learn
+  - ONNX
+  - Optuna
+  - Hugging Face Transformers
+  - LangChain
+  - LangGraph
+  - LlamaIndex
+  - CLIP
+  - PointNet++
+  # LLM / Vector-DB Ecosystem
+  - OpenAI API
+  - Weaviate
+  - Pinecone
+  - Milvus
+  # Data & Analytics
+  - Pandas
+  - NumPy
+  - Apache Spark
+  - Airflow
+  - Snowflake
+  - BigQuery
+  - PostgreSQL
+  - MongoDB
+  - Redis
+  # Backend / APIs
+  - Node.js
+  - Express
+  - FastAPI
+  - Flask
+  - GraphQL
+  - REST APIs
+  # DevOps / Cloud
+  - Docker
+  - Kubernetes
+  - AWS
+  - GCP
+  - Azure
+  - Terraform
+  - GitHub Actions
+  - CI/CD
+  # Front-End / UX
+  - React
+  - Tailwind CSS
+  - Chakra UI
+  - Mapbox GL JS
+  - Figma
+  # Audio / Signal
+  - TorchAudio
+  - Pedalboard
+  - Librosa
+  - FFT
+  # Experiment Tracking / MLOps
+  - MLflow
+  - Weights & Biases
+
+# ===============================
+#  3. Resume Content Blocks
+# ===============================
+# This is where your individual experiences and projects go.
+# - 'section': Must be "Experience" or "Projects".
+# - 'priority': A number from 0-10 to manually boost relevance. Higher is more important.
+# - 'tags': A list of key technologies for this block, used for scoring.
+blocks:
+  # --- EXPERIENCE ---
+  - section: Experience
+    heading: 'Capstone Engineer – Korotu: Drone LiDAR Tree Classification | UBC'
+    date: Jan 2024 -- Apr 2025
+    priority: 10
+    tags: [Python, PyTorch, PointNet++, LiDAR, Scikit-learn, Open3D, DBSCAN]
+    bullets:
+      - "Architected drone-to-prediction ML pipeline with hierarchical PointNet++, reaching 80% genus and 70% species accuracy on LiDAR scans."
+      - "Enhanced 3-D segmentation via DBSCAN and Open3D, boosting cluster granularity for large-scale forest plots."
+      - "Presented results to 200+ stakeholders at UBC Design & Innovation Day."
+
+  - section: Experience
+    heading: 'Volunteer | Food Hub Market'
+    date: May 2024 -- May 2025
+    priority: 1
+    tags: [Operations, Inventory Management, POS]
+    bullets:
+      - "Streamlined operations by managing inventory and POS, supporting 100+ community members weekly."
+
+  - section: Experience
+    heading: 'Brand Ambassador | Frank and Oak'
+    date: Aug 2021 -- Dec 2021
+    priority: 0
+    tags: [Customer Service, Brand Engagement, Retail]
+    bullets:
+      - "Promoted sustainable fashion while providing bespoke styling and brand-engagement support."
+
+  # --- PROJECTS ---
+  - section: Projects
+    heading: 'ToneCrafter: AI-Powered Guitar Tone Engine | TorchAudio, Pedalboard'
+    date: Feb 2025 -- Present
+    priority: 9
+    tags: [PyTorch, TorchAudio, Pedalboard, LangChain, FastAPI, DSP, Multi-agent Systems]
+    bullets:
+      - "Built real-time multi-agent DSP pipeline for natural-language-driven guitar-tone customization."
+      - "Designed modular Prompt Analyzer, Tone Retriever, and DSP Synthesizer agents to enable scalable tone modeling."
+      - "Retrieved tones from user audio via deep embeddings and artist-profile matching."
+      - "Implemented chord-detection achieving ≈85% section-wise accuracy."
+
+  - section: Projects
+    heading: 'Map-Based Task Management | Kotlin, React, Node, MongoDB'
+    date: Oct 2024 -- Jan 2025
+    priority: 7
+    tags: [Kotlin, React, Node.js, MongoDB, Espresso, CI/CD, Full-stack]
+    bullets:
+      - "Initiated at DubHacks; expanded into full-stack Android app for ADHD users with spatial task tracking and Kotlin-based frontend."
+      - "Integrated React web dashboard and Node.js backend with MongoDB, designed for cross-platform consistency."
+      - "Implemented Espresso test suite for end-to-end Android testing and CI validation."
+      - "Produced comprehensive developer docs and UI/UX flows to support future scalability."
+
+  - section: Projects
+    heading: 'EEG Signal Classifier | PyTorch, CNN, Attention'
+    date: Sep 2024 -- Dec 2024
+    priority: 8
+    tags: [PyTorch, CNN, Computer Vision, NumPy, Scikit-learn]
+    bullets:
+      - "Reached 80% accuracy on 5-class EEG classification by integrating SE-blocks and spatial attention."
+      - "Cut inference latency 15% via global pooling and pruning."
+
+  - section: Projects
+    heading: 'UBC Center for Accessibility Redesign | Figma, React'
+    date: Sep 2023 -- Dec 2023
+    priority: 6
+    tags: [Figma, React, UX Research, A/B Testing, WCAG]
+    bullets:
+      - "Shipped WCAG-compliant, mobile-first redesign; 30% faster task completion & 40% higher user satisfaction (12-person study)."
+      - "Ran A/B tests and had improvements adopted into the live site."

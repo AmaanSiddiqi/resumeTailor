@@ -1,0 +1,96 @@
+About the job
+Roles available: 14 (Last updated April 2025)
+
+AfterSell was acquired by Rokt in 2024, and we are expanding our scale and scope rapidly. We're building Shopify apps that help merchants boost their AOV (average order value) with AI-powered upsells, rewards, cross-sells and relevant offers throughout the entire customer journey. Our products, AfterSell and UpCart are trusted by over 40 thousand Shopify brands and power over 1M orders each day.
+
+We work fast, build smart, and utilize modern tools—including AI-powered development workflows—to deliver high-impact features quickly and reliably. We believe in giving our team members the courage and safety to innovate and experiment. We are building a world-class team to build world-class products.
+
+We are a team of builders helping smart businesses find innovative ways to meet customer needs and generate incremental revenue. Leading companies drive 10-50% of additional revenue—and often all their profits—from the extra products or services they sell. This economic edge unleashes a world of possibilities for growth and innovation.
+
+At Rokt, we practice transparency in career paths and compensation. At Rokt, we believe in transparency, which is why we have a well-defined career ladder with transparent compensation and clear career paths based on competency and ability. Rokt'stars constantly strive to raise the bar, pushing the envelope of what is possible.
+
+We are looking for an AI Software Developer 
+
+Total Target Compensation
+
+CAD $119,000 - $246,000, including a base salary of $100,000 - $160,000, an employee equity plan grant, and world-class benefits.
+
+This range includes Product Design, Software Engineer (Intermediate - Senior level), & Product Manager roles.
+
+Equity grants are issued in good faith, subject to company policies, board approval, and individual eligibility.
+
+About The Role
+
+Join AfterSell by Rokt as a Software Engineer and become a driving force in building AI-powered products that shape the future of e-commerce. In this high-impact role, you'll leverage cutting-edge AI tools and a builder's mindset to develop scalable solutions used by millions of customers worldwide. If you're excited by the challenge of turning bold ideas into reality and pushing the boundaries of what's possible with AI, this opportunity is for you.
+
+Requirements
+
+What You'll Do
+
+You'll Own Features End-to-end Across Both Our Core Products—AfterSell And UpCart—as We Work Towards Building a Powerful AOV Boosting Platform. This Includes
+
+Building full-stack features from idea to implementation
+Making architecture and design decisions that last
+Collaborating across non-engineering departments, and (sometimes) directly with clients
+Review code, mentor teammates, and lead projects to their desired outcomes
+
+Who You Are
+
+ AI-Enthusiast & Quick Learner: You embrace new technologies (like AI/ML frameworks) and learn rapidly, adapting to innovative tools and workflows to stay ahead of the curve.
+ Problem Solver: You excel at breaking down complex problems using first principles and creativity. Challenges are puzzles you're excited to solve.
+ Entrepreneurial Mindset: You take ownership of outcomes, move fast with confidence, and aren't afraid to navigate ambiguity—figuring things out independently when needed.
+ Collaborative Team Player: You communicate clearly and work well with cross-functional teams. You value feedback, share ideas openly, and help others succeed.
+ Driven & Results-Oriented: You set high standards for your work, take pride in delivering quality, and continually seek to improve. You care about the impact of your code on the business and customers.
+
+Benefits
+
+Why Join Rokt
+
+ Build the Future of AI in Ecommerce: Be at the forefront of AI-driven transformation in a company that's pioneering how brands engage customers in the "moment that matters" during online transactions.
+ Hyper-Growth = Fast Progression: Rokt is a rapidly growing tech leader, which means huge opportunities for your career advancement, learning, and taking on bigger responsibilities quickly.
+ Culture of Builders: Work with a smart, humble, and bold team that shares a "builder" DNA - we love to innovate, take risks, and turn ambitious ideas into tangible results. We win as a team and learn from every experiment.
+ Ownership & Impact: Every Rokt'star (employee) has a voice and real equity in the company. You'll have autonomy to make decisions, drive projects, and see the direct impact of your work on millions of users.
+ World-Class Benefits & Support: Join a people-first culture with transparent career paths, continuous development (LevelUp training, mentorship), and great perks (equity grants, catered lunches, global offices, and more) that empower you to do your best work.
+
+About The Benefits
+
+We leverage best-in-class technology and market-leading innovation in AI and ML, with all of that being underlined by building and maintaining a fantastic and inclusive culture where people can be their authentic selves, and offering a great list of perks and benefits to go with it:
+
+🏝 20 days of PTO and sabbaticals
+🏥 10 sick days & comprehensive health and dental
+🍱 Paid lunch & snacks in the office
+💪 Gym membership
+🌍 Quarterly "work from anywhere" weeks
+📚 Access to coaching, training, and career development via our LevelUp! Program. Justify the ROI for the business, and we will likely approve it
+
+We believe we're better together. We love spending time together and are in the office most days (teams are in the office 4 days per week). We also get that you need to balance your life and your commitments so you have the flexibility to manage your own hours and can spend up to a week of every quarter working from anywhere.
+
+We at Rokt choose to create a company that is as diverse and inclusive as the world we live in by attracting, growing & keeping the best talent. Equal employment opportunities are available to all applicants without regard to race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+
+If this sounds like a role you'd enjoy, apply here, and you'll hear from our recruiting team.
+
+Interview Process
+
+Interview Process
+
+We value your time, and we've made our process transparent to let you know what to expect. We aim for 14-21 days to complete the entire process
+
+Step 1 - Application: You'll hear back within 1 week
+
+An AI will screen your resume for minimum job requirements, and then a human will review it before moving to the next step
+If successful you'll be invited to do a 20-minute aptitude test (there is a minimum score requirement) and 10 minute Employer Personality Profile. 
+
+Step 2 - One-Way Video Interview (15 Minutes)
+
+You will have 2 minutes to prep and 3 minutes to complete 3 questions to assess your interest in AfterSell by Rokt, problem-solving capabilities, and alignment with our core values. 
+
+Step 3 - Take home Technical 
+
+Step 4 - Onsite (1.5 Hours)
+
+60 minute live coding (no leet code): This interview is designed to be a "real-world" coding interview with no leet code. You'll share your screen and work on a few problems in our core tech stack of React, Typescript, Html/CSS and Express.js. You'll be allowed to use AI and any other resources you'd normally access on the job 
+30 minute cultural: You'll meet a few members of the broader team for a candid conversation where they will ask you some questions and you'll get a chance to ask us questions (anything you want and we will answer). Understand Rokt's values that are outlined in our public handbook 
+
+Step 5 - Bar Raiser (30 minutes): You'll meet with an executive member at Rokt where they will assess your character through challenging and thought-provoking (non-technical) questions. Get a good sleep and be prepared to think on your feet.
+
+Step 6 - Offer: Time to celebrate

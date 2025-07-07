@@ -1,0 +1,6 @@
+langchain>=0.2
+openai>=1.30
+scikit-learn
+jinja2
+pyyaml
+python-dotenv

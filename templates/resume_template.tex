@@ -1,0 +1,125 @@
+{% raw %}
+% ===================================================================
+%      PROFESSIONAL & COMPACT RESUME TEMPLATE (ROBUST VERSION)
+% ===================================================================
+% Designed for XeLaTeX. Merges a modern, technical aesthetic with
+% a simple, reliable structure.
+%
+\documentclass[11pt, letterpaper]{article}
+
+% --- Core Packages ---
+\usepackage{fontspec}           % For using system fonts (essential for XeLaTeX)
+\usepackage[
+  left=0.7in, right=0.7in,
+  top=0.55in, bottom=0.55in       % Tighter margins for a compact, one-page fit
+]{geometry}
+\usepackage{hyperref}           % For clickable links
+\usepackage{enumitem}           % For list customization
+\usepackage{tabularx}           % For two-column layouts
+\usepackage[usenames,dvipsnames]{xcolor} % For colors
+
+% --- Font and Color Setup ---
+% Set a clean, modern, technical font.
+% Ensure you have "Roboto Mono" or "Carlito" installed, or switch to a font you have.
+\setmainfont{Carlito}
+% \setmainfont{Calibri} % Or use Calibri if you have it
+% \setmainfont{Roboto Mono} % Or use this for a more "code" feel
+\definecolor{gray}{RGB}{90, 90, 90} % A dark gray for subtle text
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+
+% --- Document-wide Settings ---
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+\setlist[itemize]{
+  leftmargin=0.15in,             % Indent bullets
+  label=\textendash,             % Use a dash for bullets - looks clean and technical
+  topsep=2pt,
+  itemsep=2pt,
+  parsep=0pt
+}
+
+% --- Custom Section Command ---
+% Creates a clean section title with a horizontal rule below it.
+\newcommand{\resumesection}[1]{
+  \vspace{8pt} % Space above the section title
+  {\large\bfseries\scshape\color{black}#1} % Section title text
+  \vspace{3pt} % Space between title and rule
+  \hrule height 0.8pt % A slightly thicker, more prominent rule
+  \vspace{8pt} % Space below the rule
+}
+{% endraw %}
+
+\begin{document}
+
+% ===================================================================
+%   HEADER
+% ===================================================================
+\begin{center}
+  {\Huge\bfseries {{ name | latex_escape }}} \\ \vspace{4pt}
+  \small
+  {{ phone | latex_escape }} \color{gray}\textbullet\color{black}
+  \href{mailto:{{ email | latex_escape }}}{ {{ email | latex_escape }} } \color{gray}\textbullet\color{black}
+  {{ location | latex_escape }} \\ \vspace{2pt}
+  \href{https://{{ website | latex_escape }}}{Website} \color{gray}\textbullet\color{black}
+  \href{https://github.com/{{ github | latex_escape }}}{GitHub} \color{gray}\textbullet\color{black}
+  \href{https://linkedin.com/in/{{ linkedin | latex_escape }}}{LinkedIn}
+\end{center}
+
+% ===================================================================
+%   TECHNICAL SKILLS
+% ===================================================================
+{% if skills_by_category %}
+\resumesection{Technical Skills}
+\begin{itemize}[itemsep=1pt]
+{%- for cat, items in skills_by_category.items() -%}
+  \item \textbf{ {{ cat | latex_escape }}:} {{ items | join(', ') | latex_escape }}
+{%- endfor -%}
+\end{itemize}
+{% endif %}
+
+% ===================================================================
+%   EXPERIENCE
+% ===================================================================
+{% if experience %}
+\resumesection{Experience}
+{%- for blk in experience -%}
+  % Using a simple \hfill for the two-column effect is very robust
+  \textbf{ {{ blk.heading | latex_escape }} } \hfill \textit{ {{ blk.date | latex_escape }} }
+  \vspace{1pt} % Minimal space between heading and bullets
+  \begin{itemize}
+  {%- for bullet in blk.bullets -%}
+    \item {{ bullet | latex_escape }}
+  {%- endfor -%}
+  \end{itemize}
+{%- endfor -%}
+{% endif %}
+
+% ===================================================================
+%   PROJECTS
+% ===================================================================
+{% if projects %}
+\resumesection{Projects}
+{%- for blk in projects -%}
+  \textbf{ {{ blk.heading | latex_escape }} } \hfill \textit{ {{ blk.date | latex_escape }} }
+  \vspace{1pt}
+  \begin{itemize}
+  {%- for bullet in blk.bullets -%}
+    \item {{ bullet | latex_escape }}
+  {%- endfor -%}
+  \end{itemize}
+{%- endfor -%}
+{% endif %}
+
+% ===================================================================
+%   EDUCATION
+% ===================================================================
+\resumesection{Education}
+  \textbf{The University of British Columbia} \hfill \textit{Expected May 2025} \\
+  \textit{Bachelor of Applied Science, Computer Engineering} \hfill \textit{Vancouver, BC}
+  \begin{itemize}[itemsep=1pt]
+    \item Outstanding International Student Award
+    \item Relevant Coursework: Machine Learning, Deep Learning, Computer Vision, Embedded Systems, UI/UX Design
+  \end{itemize}
+
+\end{document}
